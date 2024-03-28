@@ -1,0 +1,64 @@
+    .gray {
+        color: rgb(74, 74, 74);
+        font-size: 40px;
+        background-color: #88e5ec;
+    }
+
+    .alt {
+        color: rgb(254, 254, 254);
+        background-color: #a89be7;
+    }
+
+    a[target="_blank"] {
+        color: rgb(254, 254, 254);
+        background-color: rgb(252, 145, 145);
+    }
+
+    a {
+        color: black;
+    }
+
+    [title~="cosmic"] {
+        border: 5px solid #ffc400;
+    }
+
+    div[class^="test"] {
+        background: #4EDEBF;
+    }
+
+    div[class$="test"] {
+        background-color: #4EDEBF;
+    }
+
+    div[class*="test"] {
+        background-color: #22E3A8;
+    }
+
+    p[lang|="en"] {
+        background: yellow;
+    }
+
+    a:active {
+        background-color: #0866FF;
+    }
+
+    p::after {
+        content: "-Code Academy ";
+    }
+    p::before{
+        content:"Code Academy-";
+    }
+    input:checked{
+        height:20px ;
+        width: 20px;
+    }
+    input:default{
+        box-shadow: 0 0 1px 1px red;
+    }
+     input[type=text]:enabled{
+        color: rgb(31, 27, 27);
+        background-color:#63EB75 ;
+    }
+    .class input[type=text]:disabled{
+        background-color: #dddddd;
+    }
